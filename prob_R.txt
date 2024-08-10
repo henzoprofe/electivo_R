@@ -7,3 +7,4 @@ lallllalala
 
 otra prueba más por línea de comandos.
 una prueba mas para estar seguro
+ahora para probar el pull utilizando git desde terminal
