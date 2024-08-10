@@ -7,3 +7,6 @@ Para sincronizar por terminal los pasos son los siguientes:
 4) Va a pedir la contraseña, ahí se debe pegar el token que se creó en el primer paso.
 Con estos pasos queda todo actualizado.
 
+# La función todo
+Está escrita en R, se aplica sobre un vector.
+Se entiende que una columna de un dataframe se comporta como columna (esos que son nombre$columna), el archivo tiene el nombre todo.txt y solamente basta con copiarlo, ya sea en un notebook o directamente en R.
