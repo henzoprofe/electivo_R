@@ -1,0 +1,13 @@
+todo<-function(x){
+    nombre<-deparse(substitute(x))
+    cat("Las medidas de tenencia central para",nombre,"son:\n")
+    cat("\nMedia = ",mean(x))
+    cat("\nMediana = ",median(x))
+    cat("\n\nLas medidas de dispersión son:\n")
+    cat("\nVarianza = ",var(x))
+    cat("\nDesv. Estándar = ",sd(x))
+    cat("\n\nLos gráficos son:")
+    hist(x,main=nombre)
+    cat("\n")
+    boxplot(x,horizontal = TRUE,main=nombre)
+}
